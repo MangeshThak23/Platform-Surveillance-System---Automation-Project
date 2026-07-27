@@ -41,6 +41,15 @@ def Send_Email(log_path, current_cpu):
 
  python surveillance.py <Time_Interval_In_Minutes> <Log_Folder_Name>
 
+ ### Command Line Flags & Help Menu
+
+The script includes built-in command-line arguments for quick guidance:
+
+| Flag | Purpose | Command |
+| :--- | :--- | :--- |
+| `--h` / `--H` | Displays detailed project help and features list | `python surveillance.py --h` |
+| `--u` / `--U` | Displays script syntax and usage instructions | `python surveillance.py --u` |
+
  ## 📂 Project Structure
 
 ```text
@@ -52,6 +61,16 @@ def Send_Email(log_path, current_cpu):
     └── Marvellous_2026-07-27_07_44-17.log
 ```
 
+## 🛠️ Built With
+
+Python 3
+
+psutil - Cross-platform process and system monitoring module
+
+schedule - Periodic job scheduling framework
+
+smtplib / email - Built-in Python MIME email and SMTP client libraries
+ 
 
  ## 📄 Output Log File Sample
 
@@ -93,10 +112,4 @@ RAM usage: 1.80
 --------------------------------------------------
 ```
 
-## 🛠️ Built With
 
-Python 3
-psutil - Cross-platform process and system monitoring module
-schedule - Periodic job scheduling framework
-smtplib / email - Built-in Python MIME email and SMTP client libraries
- 
