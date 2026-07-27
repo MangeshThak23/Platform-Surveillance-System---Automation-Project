@@ -31,6 +31,7 @@ CPU_THRESHOLD = 80.0
 
 def Send_Email(log_path, current_cpu):
     # Configure your credentials and recipient details
+    
     sender_email = "your_email@gmail.com"
     sender_password = "your_16_digit_app_password"  # Google App Password
     receiver_email = "receiver_email@gmail.com"
