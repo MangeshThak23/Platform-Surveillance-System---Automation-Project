@@ -55,7 +55,11 @@ def Send_Email(log_path, current_cpu):
 
  ## 📄 Output Log File Sample
 
- --------------------------------------------------
+<details>
+<summary><b>Click to view sample log file output</b></summary>
+
+```text
+--------------------------------------------------
 ----Marvellous platform surveillance system----
 Log file created at: 2026-07-27_07_44-17
 --------------------------------------------------
@@ -87,7 +91,7 @@ RAM usage: 1.80
 --------------------------------------------------
 ----------------------End of log file----------------------
 --------------------------------------------------
-
+```
 
 ## 🛠️ Built With
 
