@@ -43,11 +43,14 @@ def Send_Email(log_path, current_cpu):
 
  ## 📂 Project Structure
 
-├── surveillance.py       # Main Python surveillance automation script
-├── .gitignore            # Git rules to exclude temporary logs (*.log, __pycache__)
-├── README.md             # Complete project documentation
-└── MarvellousLogs/       # Folder created automatically to store generated .log files
+```text
+.
+├── surveillance.py
+├── .gitignore
+├── README.md
+└── MarvellousLogs/
     └── Marvellous_2026-07-27_07_44-17.log
+```
 
 
  ## 📄 Output Log File Sample
